@@ -8,8 +8,8 @@ ax1.set_title('graph')
 ax1.set_xlabel('year201X')
 ax1.set_ylabel('value')
 ax1.plot(x,y,c='b',label='stock car')
-a = [0,1,2,3,4,5]
-b = [1.7,1.7,1.8,2.4,1.3,0.9]
+a = [1,2,3,4,5]
+b = [1.7,1.8,2.4,1.3,0.9]
 ax1.plot(a,b,c='r',label='diff car')
 leg = ax1.legend(loc='upper left')
 plt.show()
